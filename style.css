@@ -1,0 +1,20 @@
+h1{
+    color: burlywood;
+}
+p{
+    color: aqua;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    
+}
+body{
+    background-color: rgba(207, 40, 160, 0.967);
+}
+#head{
+    color: yellowgreen;
+}
+.classone{
+    color: rgb(22, 23, 23);
+}

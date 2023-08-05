@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+div{
+    height: 90px;
+    width: 160px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center; 
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap-reverse; */
+    align-items: center;
+    align-content: center;
+    
+}
+#box1{
+    height: 200px;
+    background-color: aqua;
+    /* margin-top: 40px; */
+}
+#box2{
+    background-color: antiquewhite;
+    flex-shrink: 0;
+}
+#box3{
+    height: 400px;
+    background-color: pink;
+}
+#box4{
+    background-color: yellow;
+}
+#box5{
+    background-color: orange;
+}

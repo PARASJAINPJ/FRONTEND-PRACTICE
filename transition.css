@@ -1,0 +1,22 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border: 6px dotted navy;
+    transition-property:all ;
+    transition-duration: 3s;
+    transition-timing-function: calc();
+    transition-delay: 1s;
+}
+div:hover{
+    background-color: yellowgreen;
+    color: aqua;
+    width: 150px;
+    transform: rotate(360deg);
+    box-shadow: 5px 5px rgb(196, 196, 196);
+    transform: translateX(390px);
+}
+div:active{
+    background-color: blueviolet;
+    transform: skewX  (90deg);
+}
